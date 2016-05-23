@@ -164,7 +164,7 @@ public class EchoServer {
 			formatter.printHelp("echoserver", opts);
 		} catch(BindException ex) {
 			System.out.println("Could not bind to port");
-		}catch (IOException e) {
+		} catch (IOException e) {
 			System.out.println("An error occured: " + e.getMessage());
 		}
 	}
